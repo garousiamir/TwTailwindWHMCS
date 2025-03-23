@@ -7,10 +7,10 @@
 <link href="{assetPath file='theme.min.css'}?v={$versionHash}" rel="stylesheet">
 {/if}
 <link href="{$WEB_ROOT}/assets/css/fontawesome-all.min.css" rel="stylesheet">
+<link href="{assetPath file='output.css'}?v={$versionHash}" rel="stylesheet">
 {assetExists file="custom.css"}
 <link href="{$__assetPath__}" rel="stylesheet">
 {/assetExists}
-<script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 {if ($language == 'arabic' || $language == 'hebrew' || $language == 'farsi')}
 {else}
 <link rel="preconnect" href="https://fonts.googleapis.com">

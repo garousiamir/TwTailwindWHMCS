@@ -1,0 +1,10 @@
+# WHMCS Twenty-One Theme Configuration File
+
+name: "twwhmcstailwind"
+description: "The First WHMCS TailwindCSS Theme In the World"
+author: "Amirhossein Garousi(agarousi.ir)"
+properties:
+  serverSidePagination: false # Defines client side will handle pagination
+provides:
+  jquery: 1.12.4
+  fontawesome: 5.10.1
